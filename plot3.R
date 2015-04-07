@@ -3,7 +3,7 @@
 
 source("loadPowerData.R")
 
-##  Open the PNG graphics device
+##  Open the PNG graphics device  
 
 png(filename="plot3.png", width=480, height=480)
 

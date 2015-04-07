@@ -1,7 +1,7 @@
 ##  The purpose of this script is to load the power data into memory to start working with it.  It will
 ##  also adjust the date from a character string to a date format.
 #t#
-##  Check whether the data have already been downloaded and unzipped.  
+##  Check whether the data have already been downloaded and unzipped.   
 
 if (!file.exists("household_power_consumption.txt")) {
   

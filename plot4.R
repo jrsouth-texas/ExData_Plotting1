@@ -8,7 +8,7 @@ source("loadPowerData.R")
 
 png(filename="plot4.png", width=1000, height=1000)
 
-## Set up the plotting logistics for two rows and two columns
+## Set up the plotting logistics for two rows and two columns  
 par(mfrow=c(2,2))
 
 ## Add plot1, a histogram of Global Active Power 
